@@ -1,0 +1,13 @@
+references:
+  - "https://en.wikipedia.org/wiki/Suzuki_Splash"
+
+generations:
+  - name: "First Generation"
+    start_year: 2008
+    end_year: 2014
+    description: "Pre-facelift model introduced in 2008. Jointly developed by Suzuki and Opel, marketed as Opel Agila/Vauxhall Agila in European markets. Powered by 1.0L and 1.2L petrol engines, plus 1.3L Fiat MultiJet diesel."
+    
+  - name: "First Generation Facelift"
+    start_year: 2013
+    end_year: 2017
+    description: "Facelifted version with updated front fascia, new grille, headlamps, bumpers, and interior updates. Launched in Europe in 2013, Indonesia in April 2013 with automatic transmission option. Indian market Ritz received similar updates in 2015 model year."
