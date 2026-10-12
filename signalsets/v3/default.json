@@ -96,7 +96,7 @@
     {"id": "SPLASH_MILON_RUN_DISTANCE",             "path": "DTCs", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "MIL ON run distance"},
     {"id": "SPLASH_RUNNING_TIME_FROM_MIL_ON",       "path": "DTCs", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "minutes"    }, "name": "Running time from MIL ON"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "21"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "SPLASH_CC_VSS",                      "path": "Cruise control", "fmt": {           "len": 8, "max": 255,                                                      "unit": "kilometersPerHour" }, "name": "Cruise control speed"},
     {"id": "SPLASH_CC_S",                        "path": "Cruise control", "fmt": {"bix": 8,  "len": 8, "max": 255,                                                      "unit": "kilometersPerHour" }, "name": "Cruise control speed"},
@@ -119,7 +119,7 @@
     {"id": "SPLASH_COMM_WITH_AIR_CONDITIONER", "path": "Climate", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon"  }, "name": "Communication with air conditioner"},
     {"id": "SPLASH_COMM_WITH_VALVEMATIC_COMM", "path": "Climate", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "scalar" }, "name": "Communication with valvematic"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "25"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "25"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "SPLASH_POWER_STEERING_SIGNAL",                   "path": "Control", "fmt": {"bix": 4,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Power steering"},
     {"id": "SPLASH_STOP_LIGHT_SWITCH",                       "path": "Lights",  "fmt": {"bix": 5,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Stop light"},
@@ -140,11 +140,11 @@
     {"id": "SPLASH_TC_TERMINAL",                             "path": "Control", "fmt": {"bix": 61, "len": 1, "max": 1, "unit": "scalar" }, "name": "TC"},
     {"id": "SPLASH_A_C_COMPRESSOR",                          "path": "Control", "fmt": {"bix": 64, "len": 1, "max": 1, "unit": "offon"  }, "name": "A/C compressor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "28"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "SPLASH_2128_RAW", "path": "ECU", "fmt": { "len": 24, "max": 16777214, "nullmax": 16777214, "unit": "scalar" }, "name": "Engine module 2128 first value, raw"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "45"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "SPLASH_MISFIRE_RPM_V2",            "path": "Engine",          "fmt": {"bix": 8,  "len": 8,  "max": 6375,               "mul": 25,                                            "unit": "rpm"     }, "name": "Misfire RPM"},
     {"id": "SPLASH_MISFIRE_LOAD_V2",           "path": "Engine.Misfires", "fmt": {"bix": 16, "len": 8,  "max": 3.98,               "mul": 4,  "div": 256,                                "unit": "scalar"  }, "name": "Misfire load"},
